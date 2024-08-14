@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "fbLogin",
+    "slug": "fbLogin",
+    "plugins": [
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "1000321518233600",
+          "clientToken": "be34b7da2638e9ad24c6e1a91a24cb8a",
+          "displayName": "loginApp"
+        }
+      ]
+    ],
+    "facebookAppId": "1000321518233600",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.keshav108.fbLogin"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3ea0460e-de2b-4ad0-8f49-2762f52af64d"
+      }
+    }
+  }
+}
